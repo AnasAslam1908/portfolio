@@ -1,0 +1,98 @@
+/* 1. Standard v4 Import */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+/* 2. Configure Theme (Replaces :root for Tailwind variables) */
+@theme {
+  /* Fonts */
+  --font-body: "DM Sans", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+
+  /* Colors - Naming them "--color-*" tells Tailwind to make bg-*, text-*, border-* utilities */
+  --color-background: hsl(224 71% 4%);
+  --color-foreground: hsl(213 31% 91%);
+
+  --color-primary: hsl(263 70% 50%);
+  --color-primary-foreground: hsl(210 40% 98%);
+
+  --color-secondary: hsl(222 47% 11%);
+  --color-secondary-foreground: hsl(210 40% 98%);
+
+  --color-accent: hsl(199 89% 48%);
+  --color-accent-foreground: hsl(222 47% 11%);
+
+  --color-muted: hsl(223 47% 11%);
+  --color-muted-foreground: hsl(215 20% 65%);
+
+  --color-card: hsl(224 71% 4%);
+  --color-card-foreground: hsl(213 31% 91%);
+
+  --color-border: hsl(216 34% 17%);
+  --color-input: hsl(216 34% 17%);
+  --color-ring: hsl(263 70% 50%);
+
+  /* Border Radius */
+  --radius-xl: 1rem;
+}
+
+/* 3. Custom Utilities & Base Styles */
+
+
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background-color: color-mix(
+    in srgb,
+    var(--color-background),
+    transparent 20%
+  );
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Gradient Text */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary),
+    var(--color-accent),
+    var(--color-primary)
+  );
+  background-size: 200% auto;
+  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
