@@ -324,11 +324,12 @@ export default function Home() {
                 }}
                 className="w-full sm:w-auto px-8 py-4 rounded-full bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/25 hover:-translate-y-1 flex items-center justify-center gap-3 cursor-pointer"
               >
-                <Mail className="w-5 h-5" />
-                Email me at {personalInfo.email}
+                <Mail className="w-5 h-5 shrink-0" />
+                <span className="sm:hidden">Email Me</span>
+                <span className="hidden sm:inline">
+                  Email me at {personalInfo.email}
+                </span>
               </button>
-
-              
 
               {/* LINKEDIN BUTTON */}
               <a
