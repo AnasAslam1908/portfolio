@@ -224,7 +224,7 @@ export default function Home() {
       {/* PROJECTS SECTION */}
       <Section
         id="projects"
-        title="Featured Projects"
+        title="Projects"
         subtitle="Showcasing my technical capabilities through practical applications."
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
