@@ -304,8 +304,8 @@ export default function Home() {
       </Section>
 
       {/* CONTACT SECTION */}
-      <Section id="contact" className="py-20">
-        <div className="rounded-[2.5rem] p-10 md:p-16 text-center relative overflow-hidden">
+      <Section id="contact" className="py-40">
+        <div className="rounded-[2.5rem] p-24 md:p-32 text-center relative overflow-hidden">
           <div className="relative z-10 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold font-display mb-8">
               Connect with me through
