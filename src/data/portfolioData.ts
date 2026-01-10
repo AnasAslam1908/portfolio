@@ -5,7 +5,7 @@ export const portfolioData = {
     intro:
       "Passionate software engineering student with hands-on experience in full-stack development, microservices, and AI integration. Dedicated to building scalable and efficient solutions.",
     email: "anasaslam6021@gmail.com",
-    github: "https://github.com",
+    github: "https://github.com/AnasAslam1908",
     linkedin: "https://www.linkedin.com/in/anas-aslam-639a492ab/",
   },
   skills: {
@@ -19,7 +19,7 @@ export const portfolioData = {
     ],
     frontend: ["React", "Tailwind CSS", "Bootstrap", "Java Swing"],
     databases: ["MySQL", "PostgreSQL", "MongoDB"],
-    ai: ["LangChain", "Streamlit", "Google Gemini"],
+    ai: ["LangChain", "Streamlit", "Google Gemini", "OpenAI"],
     tools: ["Git", "GitHub", "Docker", "Postman"],
     testing: ["JUnit", "Mockito"],
   },
