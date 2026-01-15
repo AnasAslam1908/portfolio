@@ -1,7 +1,7 @@
 export const portfolioData = {
   personalInfo: {
     name: "Muhammad Anas",
-    title: "Software Engineering Student | Backend & Full-Stack Developer",
+    title: "Software Engineering Student",
     intro:
       "Passionate software engineering student with hands-on experience in full-stack development, microservices, and AI integration. Dedicated to building scalable and efficient solutions.",
     email: "anasaslam6021@gmail.com",
