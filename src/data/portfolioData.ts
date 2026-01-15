@@ -9,7 +9,7 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/anas-aslam-639a492ab/",
   },
   skills: {
-    languages: ["Java", "Python", "C#"],
+    languages: ["Java", "Python", "C#","JavaScript"],
     backend: [
       "Spring Boot",
       "REST APIs",
@@ -17,9 +17,23 @@ export const portfolioData = {
       ".NET Core",
       "Apache Kafka",
     ],
-    frontend: ["React", "Tailwind CSS", "Bootstrap", "Java Swing"],
+    frontend: ["React", "Tailwind CSS", "Bootstrap", "Java Swing","Streamlit"],
     databases: ["MySQL", "PostgreSQL", "MongoDB"],
-    ai: ["LangChain", "Streamlit", "Google Gemini", "OpenAI"],
+    ai: [
+      "LangChain",
+      "Retrieval-Augmented Generation",
+      "Google Gemini",
+      "OpenAI",
+      "ChromaDB",
+      "FAISS",
+    ],
+
+    machineLearning: [
+      "Scikit-learn",
+      "Data Preprocessing",
+      "Feature Engineering",
+      "Model Evaluation",
+    ],
     tools: ["Git", "GitHub", "Docker", "Postman"],
     testing: ["JUnit", "Mockito"],
   },

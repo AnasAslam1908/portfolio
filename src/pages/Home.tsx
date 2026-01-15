@@ -18,6 +18,7 @@ import {
   Code,
   MapPin,
   Calendar,
+  Cpu,
   Briefcase
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -139,10 +140,17 @@ export default function Home() {
             delay={0.3}
           />
           <SkillCard
-            title="AI & Machine Learning"
+            title="AI Engineering"
             skills={skills.ai}
             icon={Brain}
             delay={0.4}
+          />
+
+          <SkillCard
+            title="Machine Learning"
+            skills={skills.machineLearning}
+            icon={Cpu}
+            delay={0.5}
           />
           <SkillCard
             title="DevOps & Tools"
