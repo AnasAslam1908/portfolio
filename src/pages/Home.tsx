@@ -188,7 +188,7 @@ export default function Home() {
                   index % 2 === 0 ? "flex-row-reverse" : ""
                 }`}
               >
-                <div className="md:w-1/2 mb-8 md:mb-0" /> {/* Spacer */}
+                <div className="md:w-1/2 mb-8 md:mb-0" /> 
                 <div className="md:w-1/2 relative">
                   <div className="md:hidden absolute -left-9.25 top-1.5 w-3 h-3 rounded-full bg-primary ring-4 ring-background" />
                   <div className="md:hidden absolute -left-8.25 top-4 bottom-0 w-px bg-border" />
@@ -320,7 +320,7 @@ export default function Home() {
             </h2>
 
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-              {/* EMAIL BUTTON */}
+              
               <button
                 onClick={() => {
                   window.location.href = `mailto:${personalInfo.email}`;
@@ -339,7 +339,7 @@ export default function Home() {
                 </span>
               </button>
 
-              {/* LINKEDIN BUTTON */}
+              
               <a
                 href={personalInfo.linkedin}
                 target="_blank"
