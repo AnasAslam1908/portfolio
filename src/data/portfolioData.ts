@@ -72,6 +72,13 @@ export const portfolioData = {
       githubLink: "https://github.com/AnasAslam1908/EventHub-JSP-Servlets-",
     },
     {
+      title: "Chef AI",
+      description:
+        "AI-powered recipe generator that suggests recipes based on available ingredients using Hugging Face's Mistral model. Features secure serverless API architecture with API key protection.",
+      techStack: ["React", "Hugging Face API", "JavaScript"],
+      githubLink: "https://github.com/AnasAslam1908/chef",
+    },
+    {
       title: "GUI-based Music Player",
       description: "Built a music player with Java Swing",
       techStack: ["Java Swing", "Java"],
@@ -86,8 +93,7 @@ export const portfolioData = {
       duration: "Aug 2022 – Present",
     },
     {
-      institution:
-        "Whales College (A'level)",
+      institution: "Whales College (A'level)",
       degree: "Pre Engineering - Grades : 2A* 1A",
       duration: "Aug 2020 – July 2022",
     },
