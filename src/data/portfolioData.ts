@@ -74,7 +74,7 @@ export const portfolioData = {
     {
       title: "Chef AI",
       description:
-        "AI-powered recipe generator that suggests recipes based on available ingredients using Hugging Face's Mistral model. Features secure serverless API architecture with API key protection.",
+        "AI recipe generator using Hugging Face's Mistral model with secure serverless backend",
       techStack: ["React", "Hugging Face API", "JavaScript"],
       githubLink: "https://github.com/AnasAslam1908/chef",
     },
