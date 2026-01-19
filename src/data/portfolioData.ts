@@ -9,7 +9,7 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/anas-aslam-639a492ab/",
   },
   skills: {
-    languages: ["Java", "Python", "C#","JavaScript"],
+    languages: ["Java", "Python", "C#", "JavaScript"],
     backend: [
       "Spring Boot",
       "REST APIs",
@@ -17,7 +17,7 @@ export const portfolioData = {
       ".NET Core",
       "Apache Kafka",
     ],
-    frontend: ["React", "Tailwind CSS", "Bootstrap", "Java Swing","Streamlit"],
+    frontend: ["React", "Tailwind CSS", "Bootstrap", "Java Swing", "Streamlit"],
     databases: ["MySQL", "PostgreSQL", "MongoDB"],
     ai: [
       "LangChain",
@@ -84,6 +84,12 @@ export const portfolioData = {
         "FAST – National University of Computer and Emerging Sciences",
       degree: "BS Software Engineering",
       duration: "Aug 2022 – Present",
+    },
+    {
+      institution:
+        "Whales College (A'level)",
+      degree: "Pre Engineering - Grades : 2A* 1A",
+      duration: "Aug 2020 – July 2022",
     },
   ],
   certifications: [
